@@ -100,11 +100,12 @@ More details are discussed in COMP9024/C/AccessMemory
 
 
 // global variable, visible in all *.c files
-long year = 2024;
+long year = 2024;    /*year can be access in main.c for example*/
 
 // The default value of a global/static variable is 0
 // The static variable 'number' is visible in the current C file
-static int number;
+static int number;       
+
 
 /* 
     "CSE@UNSW" is a constant string.
